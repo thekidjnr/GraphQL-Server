@@ -1,0 +1,21 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "apollo-server": "^3.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^16.0.0",
+    "merge-graphql-schemas": "^1.7.8",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
