@@ -1,13 +1,13 @@
-const { posts } = require('../temp')
+const { post } = require('../temp')
 
 //Queries
 const post = () => posts
-const totalPosts = () => posts.length
+const totalPosts = () => post.length
 
 //Mutations
 const newPost = (parent, args) => {
     const post = {
-        id: posts.length + 1,
+        id: post.length + 1,
         ...args.input
     }
 
@@ -21,7 +21,7 @@ module.exports = {
     Query: {
         allPosts: post,
         totalPosts
-    }
+    },
     Mutation: {
         newPost
     }

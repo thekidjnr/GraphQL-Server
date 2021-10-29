@@ -6,8 +6,9 @@ module.exports = gql`
     author: String
     title: String!
     description: String
-   
-
+    likes: Int
+    dislikes: Int
+    comment: [Comment]
  
   }
 
@@ -21,6 +22,9 @@ module.exports = gql`
     title: String!
     author: String
     description: String!
+    likes: Int
+    dislikes: Int 
+    comment: [Comment]
    
   }
 
