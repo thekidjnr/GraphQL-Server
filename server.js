@@ -42,6 +42,7 @@ apollo.listen().then(({url})=>{
 })
 
 
-// app.listen(process.env.PORT, () =>{
-//     console.log(`listening on port http://localhost:${process.env.PORT}`);
-// })
+app.listen(process.env.PORT, () =>{
+    console.log(`Graphql server listening on http://localhost:${process.env}${apollo.graphqlPath}`);
+    
+})
